@@ -12,6 +12,7 @@
 }
 
 .news__image img {
+  
   width: 100%;
 }
 .mainNews a {
@@ -64,6 +65,8 @@
 }
 .advertisement {
   max-width: 1200px;
+  display: flex;
+  align-items: center;
 }
 .advertisement img {
   max-width: 100%;
@@ -72,6 +75,9 @@
 @media screen and (max-width: 992px) {
   .card__content a h2{
     font-size: 1.5rem;
+  }
+  .mainNews , .subNews{
+    max-width: 700px;
   }
 }
 
