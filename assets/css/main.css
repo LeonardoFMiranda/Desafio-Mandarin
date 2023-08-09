@@ -7,9 +7,12 @@
 .mainNews {
   display: flex;
   flex-direction: column;
-
+  max-width: 700px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+  
 
 .news__image img {
   
@@ -33,7 +36,7 @@
 .subNews {
   display: flex;
   gap: 20px;
-
+  max-width: 700px;
   margin: 3rem 0;
 }
 .card__content {
@@ -49,6 +52,9 @@
   text-decoration: none;
   color: black;
 }
+.card__content a h2{
+  font-size: 1.5rem;
+}
 .card__content p {
   color: #74787a;
 }
@@ -56,7 +62,7 @@
   color: #b2b2b2;
 }
 .card__photo {
-  height: 360px;
+  height: 300px;
   max-width: 500px;
 }
 .card__photo img {
