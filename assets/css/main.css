@@ -69,6 +69,11 @@
   max-width: 100%;
   height: 165px;
 }
+@media screen and (max-width: 992px) {
+  .card__content a h2{
+    font-size: 1.5rem;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .mainNews a h1 {
